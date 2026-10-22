@@ -1,0 +1,48 @@
+{
+  "exam": "AZ-900",
+  "title": "Microsoft Azure Fundamentals",
+  "domains": [
+    {
+      "id": "concepts",
+      "name": "Describe cloud concepts",
+      "weight": "25-30%",
+      "subtopics": [
+        "Define cloud computing",
+        "Shared responsibility model",
+        "Cloud models (public, private, hybrid)",
+        "Consumption-based model",
+        "Cloud pricing",
+        "Serverless",
+        "Benefits: HA, scalability, reliability, predictability, security, governance, manageability",
+        "IaaS, PaaS, SaaS"
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "Describe Azure architecture and services",
+      "weight": "35-40%",
+      "subtopics": [
+        "Regions, region pairs, sovereign regions",
+        "Availability zones",
+        "Resources, resource groups, subscriptions, management groups",
+        "Compute: VMs, scale sets, availability sets, Virtual Desktop, containers, Functions, App Service",
+        "Networking: virtual networks, subnets, peering, DNS, VPN Gateway, ExpressRoute",
+        "Storage: services, tiers, redundancy, migration tools",
+        "Identity: Entra ID, authentication, External ID, Conditional Access, RBAC, Zero Trust, defense-in-depth"
+      ]
+    },
+    {
+      "id": "management",
+      "name": "Describe Azure management and governance",
+      "weight": "30-35%",
+      "subtopics": [
+        "Cost management, Pricing calculator, Cost Management, tags",
+        "Cost optimization: Reservations, savings plans, Spot",
+        "Microsoft Purview, Azure Policy, resource locks",
+        "Azure portal, Cloud Shell, CLI, PowerShell, Azure Arc",
+        "ARM templates, Bicep",
+        "Azure Advisor, Service Health, Azure Monitor"
+      ]
+    }
+  ]
+}
